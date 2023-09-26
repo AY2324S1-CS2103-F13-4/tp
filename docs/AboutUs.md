@@ -11,7 +11,7 @@ This project was done by a team of 4 members.
 
 ### Li Hongguang
 
-<img src="images/Hongguang.jpeg" width="200px">
+<img src="images/hongguang.png" width="200px">
 
 [[github](https://github.com/lihongguang00)]
 [[portfolio](team/johndoe.md)]
