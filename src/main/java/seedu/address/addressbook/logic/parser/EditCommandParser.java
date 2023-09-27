@@ -13,10 +13,10 @@ import java.util.Collections;
 import java.util.Optional;
 import java.util.Set;
 
-import seedu.address.addressbook.logic.commands.EditCommand;
-import seedu.address.addressbook.model.tag.Tag;
 import seedu.address.addressbook.commons.core.index.Index;
+import seedu.address.addressbook.logic.commands.EditCommand;
 import seedu.address.addressbook.logic.parser.exceptions.ParseException;
+import seedu.address.addressbook.model.tag.Tag;
 
 /**
  * Parses input arguments and creates a new EditCommand object

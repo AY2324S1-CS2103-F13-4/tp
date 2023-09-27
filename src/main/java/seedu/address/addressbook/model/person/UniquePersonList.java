@@ -1,7 +1,6 @@
 package seedu.address.addressbook.model.person;
 
 import static java.util.Objects.requireNonNull;
-import static seedu.address.addressbook.commons.util.CollectionUtil.requireAllNonNull;
 
 import java.util.Iterator;
 import java.util.List;

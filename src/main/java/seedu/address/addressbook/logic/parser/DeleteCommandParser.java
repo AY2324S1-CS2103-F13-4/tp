@@ -2,8 +2,8 @@ package seedu.address.addressbook.logic.parser;
 
 import static seedu.address.addressbook.logic.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
 
-import seedu.address.addressbook.logic.commands.DeleteCommand;
 import seedu.address.addressbook.commons.core.index.Index;
+import seedu.address.addressbook.logic.commands.DeleteCommand;
 import seedu.address.addressbook.logic.parser.exceptions.ParseException;
 
 /**

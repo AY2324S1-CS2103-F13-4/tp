@@ -4,14 +4,14 @@ import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import seedu.address.addressbook.model.AddressBook;
+import seedu.address.addressbook.model.ReadOnlyAddressBook;
 import seedu.address.addressbook.model.person.Address;
 import seedu.address.addressbook.model.person.Email;
 import seedu.address.addressbook.model.person.Name;
 import seedu.address.addressbook.model.person.Person;
 import seedu.address.addressbook.model.person.Phone;
 import seedu.address.addressbook.model.tag.Tag;
-import seedu.address.addressbook.model.AddressBook;
-import seedu.address.addressbook.model.ReadOnlyAddressBook;
 
 /**
  * Contains utility methods for populating {@code AddressBook} with sample data.

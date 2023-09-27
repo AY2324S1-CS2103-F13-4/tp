@@ -4,12 +4,12 @@ import static java.util.Objects.requireNonNull;
 
 import java.util.List;
 
-import seedu.address.addressbook.commons.util.ToStringBuilder;
-import seedu.address.addressbook.model.person.Person;
 import seedu.address.addressbook.commons.core.index.Index;
+import seedu.address.addressbook.commons.util.ToStringBuilder;
 import seedu.address.addressbook.logic.Messages;
 import seedu.address.addressbook.logic.commands.exceptions.CommandException;
 import seedu.address.addressbook.model.Model;
+import seedu.address.addressbook.model.person.Person;
 
 /**
  * Deletes a person identified using it's displayed index from the address book.

@@ -8,10 +8,11 @@ import static seedu.address.addressbook.logic.parser.CliSyntax.PREFIX_PHONE;
 import static seedu.address.addressbook.logic.parser.CliSyntax.PREFIX_TAG;
 
 import seedu.address.addressbook.commons.util.ToStringBuilder;
-import seedu.address.addressbook.model.person.Person;
 import seedu.address.addressbook.logic.Messages;
 import seedu.address.addressbook.logic.commands.exceptions.CommandException;
 import seedu.address.addressbook.model.Model;
+import seedu.address.addressbook.model.person.Person;
+
 
 /**
  * Adds a person to the address book.

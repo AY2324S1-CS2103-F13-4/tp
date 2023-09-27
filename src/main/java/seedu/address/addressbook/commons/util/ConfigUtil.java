@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.util.Optional;
 
-import seedu.address.addressbook.commons.exceptions.DataLoadingException;
 import seedu.address.addressbook.commons.core.Config;
+import seedu.address.addressbook.commons.exceptions.DataLoadingException;
 
 /**
  * A class for accessing the Config File.

@@ -1,7 +1,7 @@
 package seedu.address.addressbook.model.tag;
 
 import static java.util.Objects.requireNonNull;
-import static seedu.address.addressbook.commons.util.AppUtil.checkArgument;
+
 import seedu.address.addressbook.commons.util.AppUtil;
 
 /**

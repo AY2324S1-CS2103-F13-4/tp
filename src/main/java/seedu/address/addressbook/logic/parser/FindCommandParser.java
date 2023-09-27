@@ -5,8 +5,8 @@ import static seedu.address.addressbook.logic.Messages.MESSAGE_INVALID_COMMAND_F
 import java.util.Arrays;
 
 import seedu.address.addressbook.logic.commands.FindCommand;
-import seedu.address.addressbook.model.person.NameContainsKeywordsPredicate;
 import seedu.address.addressbook.logic.parser.exceptions.ParseException;
+import seedu.address.addressbook.model.person.NameContainsKeywordsPredicate;
 
 /**
  * Parses input arguments and creates a new FindCommand object

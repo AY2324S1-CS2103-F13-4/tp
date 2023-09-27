@@ -1,7 +1,6 @@
 package seedu.address.addressbook.commons.util;
 
 import static java.util.Objects.requireNonNull;
-import static seedu.address.addressbook.commons.util.AppUtil.checkArgument;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

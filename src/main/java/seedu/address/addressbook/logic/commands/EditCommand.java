@@ -15,18 +15,18 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 
+import seedu.address.addressbook.commons.core.index.Index;
 import seedu.address.addressbook.commons.util.CollectionUtil;
 import seedu.address.addressbook.commons.util.ToStringBuilder;
+import seedu.address.addressbook.logic.Messages;
+import seedu.address.addressbook.logic.commands.exceptions.CommandException;
+import seedu.address.addressbook.model.Model;
 import seedu.address.addressbook.model.person.Address;
 import seedu.address.addressbook.model.person.Email;
 import seedu.address.addressbook.model.person.Name;
 import seedu.address.addressbook.model.person.Person;
 import seedu.address.addressbook.model.person.Phone;
 import seedu.address.addressbook.model.tag.Tag;
-import seedu.address.addressbook.commons.core.index.Index;
-import seedu.address.addressbook.logic.Messages;
-import seedu.address.addressbook.logic.commands.exceptions.CommandException;
-import seedu.address.addressbook.model.Model;
 
 /**
  * Edits the details of an existing person in the address book.
