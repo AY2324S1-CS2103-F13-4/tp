@@ -27,6 +27,10 @@ Class Email
 Class Name
 Class Phone
 Class Tag
+Class TaskList
+Class Task
+Class TaskDescription
+Class Deadline
 
 Class I #FFFFFF
 }
@@ -71,6 +75,11 @@ UniquePersonList -[hidden]right-> I
 Name -[hidden]right-> Phone
 Phone -[hidden]right-> Address
 Address -[hidden]right-> Email
+
+TaskManager --> "1" TaskList
+TaskList --> "*" Task
+Task *--> "1" TaskDescription
+Task *--> "0..1"Deadline
 
 ModelManager --> "~* filtered" Person
 @enduml
